@@ -1,0 +1,46 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+}
+.logo {
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list {
+  width: 155px;
+  display: flex;
+  padding-bottom: 13px;
+}
+.li1 {
+  padding-right: 10px;
+}
+.li2 {
+  padding-left: 10px;
+}
+.mainPage {
+  background-color: #3cdbc0;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 30px;
+}
