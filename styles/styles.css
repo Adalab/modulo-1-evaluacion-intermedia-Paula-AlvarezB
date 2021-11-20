@@ -14,24 +14,26 @@
 
 .logo {
   width: 155px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0px 0px 0px;
 }
 
 .list {
+  box-sizing: border-box;
   font-size: 16px;
   width: 155px;
   display: flex;
   padding-bottom: 13px;
+  text-transform: uppercase;
 }
 
 .li1 {
+  padding: 10px 10px 10px 10px;
   list-style: none;
-  padding-right: 20px;
   text-decoration: none;
   color: #4a4a4a;
 }
 .li2 {
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
   color: #4a4a4a;
 }
@@ -44,39 +46,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-/* no sé si es buena práctica darle formato a h1 y h2 por separado o si sería más conveniente meter los dos en un contenedor. Probé a utilizar el nav pero el h1 seguia apareciendo más grande, por lo que les di font-size a cada h de forma específica. Si hubiera una forma mejor de hacerlo, agradecería conocerla */
-h1 {
-  font-size: 30px;
+  text-align: center;
+  word-spacing: 100vh;
 }
 
-h2 {
+.mainTitle {
   font-size: 30px;
+  text-transform: capitalize;
 }
 
 @media all and (min-width: 768px) {
   .header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 16px;
   }
 
   .logo {
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px 20px 30px;
   }
 
   .list {
     padding-right: 30px;
   }
 
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
+  .mainTitle {
     font-size: 40px;
   }
 }
